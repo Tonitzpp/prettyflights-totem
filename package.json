@@ -1,0 +1,8 @@
+{
+  "name": "prettyflights-totem",
+  "version": "1.0.0",
+  "description": "Totem de Check-in PrettyFlights",
+  "main": "src/check-in/index.js",
+  "author": "PrettyFlights Engineering",
+  "license": "MIT"
+}

@@ -31,3 +31,10 @@ Integrada na `develop` via Pull Request.
 Commits realizados:
 - `feat(check-in): implementar módulo de leitura de QR code`
 - `feat(check-in): adicionar validação de reserva e janela de check-in`
+
+## 4. Release 1.0.0
+
+Branch criada a partir de `develop`.
+Apenas bump de versão e bugfixes são permitidos nesta branch.
+Semantic Versioning: MAJOR=1, MINOR=0, PATCH=0 — primeira versão pública.
+Após merge na `main`, tag `v1.0.0` criada.
