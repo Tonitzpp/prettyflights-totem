@@ -21,3 +21,13 @@ Branch `develop` criada a partir de `main` como ponto de integração contínua.
 | `feature/*` | `feature/<descricao>` | develop | develop        |
 | `release/*` | `release/<versao>`    | develop | main + develop |
 | `hotfix/*`  | `hotfix/<versao>`     | main    | main + develop |
+
+## 3. Feature: qr-code-reader
+
+Branch criada a partir de `develop`.
+Desenvolvidos os módulos de leitura de QR code e validação de reserva.
+Integrada na `develop` via Pull Request.
+
+Commits realizados:
+- `feat(check-in): implementar módulo de leitura de QR code`
+- `feat(check-in): adicionar validação de reserva e janela de check-in`
