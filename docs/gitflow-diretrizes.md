@@ -46,3 +46,30 @@ Bug: crash ao receber QR code em branco ou nulo.
 Correção: adicionada verificação defensiva no método `decode()`.
 Integrada na `main` (tag v1.0.1) e na `develop` via Pull Request.
 PATCH incrementado: v1.0.0 → v1.0.1.
+
+## 6. Convenções adotadas
+
+### Conventional Commits
+Formato: `<tipo>(<escopo>): <descrição>`
+
+| Tipo      | Uso                              |
+|-----------|----------------------------------|
+| `feat`    | Nova funcionalidade              |
+| `fix`     | Correção de bug                  |
+| `docs`    | Documentação                     |
+| `chore`   | Manutenção (versão, config)      |
+| `merge`   | Commits de merge                 |
+| `release` | Merge de release na main         |
+| `hotfix`  | Merge de hotfix na main          |
+
+### Semantic Versioning — `MAJOR.MINOR.PATCH`
+
+| Campo   | Quando incrementar                        |
+|---------|-------------------------------------------|
+| `MAJOR` | Mudança incompatível com versão anterior  |
+| `MINOR` | Nova funcionalidade retrocompatível       |
+| `PATCH` | Correção de bug retrocompatível           |
+
+### Histórico de versões
+- `v1.0.0` — Release inicial: check-in por QR code
+- `v1.0.1` — Hotfix HOT-042: crash em QR code em branco
