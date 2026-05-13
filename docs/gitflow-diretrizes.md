@@ -38,3 +38,11 @@ Branch criada a partir de `develop`.
 Apenas bump de versão e bugfixes são permitidos nesta branch.
 Semantic Versioning: MAJOR=1, MINOR=0, PATCH=0 — primeira versão pública.
 Após merge na `main`, tag `v1.0.0` criada.
+
+## 5. Hotfix 1.0.1
+
+Branch criada a partir de `main` para corrigir bug crítico em produção (HOT-042).
+Bug: crash ao receber QR code em branco ou nulo.
+Correção: adicionada verificação defensiva no método `decode()`.
+Integrada na `main` (tag v1.0.1) e na `develop` via Pull Request.
+PATCH incrementado: v1.0.0 → v1.0.1.
